@@ -6,7 +6,7 @@ namespace Metotlar
 {
     class SepetManager
     {
-        //naming convention Ekle nin baş harfini büyük yaptığımız gibi //C# ve Java gibi dillerde eger _()_ varsa method vardır orada
+        //naming convention Ekle nin baş harfini büyük yaptığımız gibi //C# ve Java gibi dillerde eger _()_ varsa metot vardır orada
         public void Ekle(Product product)
         {
             Console.WriteLine("Tebrikler. Sepete Eklendi : " + product.Adi);
